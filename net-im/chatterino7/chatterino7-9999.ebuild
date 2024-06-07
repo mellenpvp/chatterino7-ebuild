@@ -25,7 +25,7 @@ RDEPEND="
     dev-qt/qt5compat:6
     dev-qt/qtsvg:6
     dev-qt/qtimageformats:6
-    net-libs/libcommuni
+    net-im/libcommuni
     dev-cpp/magic_enum
     media-libs/miniaudio
     dev-libs/rapidjson
