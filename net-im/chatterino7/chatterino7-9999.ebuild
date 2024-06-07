@@ -27,7 +27,7 @@ RDEPEND="
     dev-qt/qtimageformats:6
     net-im/libcommuni
     dev-cpp/magic_enum
-    media-libs/miniaudio
+    dev-libs/miniaudio
     dev-libs/rapidjson
     dev-cpp/websocketpp
     dev-libs/boost
