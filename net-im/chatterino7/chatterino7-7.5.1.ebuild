@@ -38,6 +38,17 @@ DEPEND="${RDEPEND}"
 BDEPEND=""
 
 src_prepare() {
+    git submodule update --init --recursive
+    rmdir --ignore-fail-on-non-empty ./lib/*/ ./cmake/*/ || die
+    ln -sr ../libcommuni-* ./lib/libcommuni || die
+    ln -sr ../magic_enum-* ./lib/magic_enum || die
+    ln -sr ../miniaudio-* ./lib/miniaudio || die
+    ln -sr ../rapidjson-* ./lib/rapidjson || die
+    ln -sr ../serialize-* ./lib/serialize || die
+    ln -sr ../settings-* ./lib/settings || die
+    ln -sr ../signals-* ./lib/signals || die
+    ln -sr ../websocketpp-* ./lib/websocketpp || die
+    ln -sr ../sanitizers-cmake-* ./cmake/sanitizers-cmake || die
     cmake_src_prepare
 }
 
