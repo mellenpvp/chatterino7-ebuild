@@ -11,7 +11,7 @@ SRC_URI="
     https://github.com/SevenTV/chatterino7/archive/refs/tags/v7.5.1.tar.gz -> ${P}.tar.gz
 "
 
-S=${WORKDIR}/chatterino7-build
+S=${WORKDIR}/chatterino7-7.5.1-build
 
 LICENSE="MIT"
 SLOT="0"
