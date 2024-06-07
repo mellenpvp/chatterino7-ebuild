@@ -56,7 +56,6 @@ src_configure() {
     local mycmakeargs=(
         -DBUILD_WITH_QT6=ON
         -DUSE_SYSTEM_QTKEYCHAIN=OFF
-        -DCMAKE_BUILD_TYPE=Release
     )
     cmake_src_configure
 }
