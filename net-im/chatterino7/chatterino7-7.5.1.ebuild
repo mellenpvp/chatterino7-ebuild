@@ -8,7 +8,7 @@ inherit cmake optfeature xdg-utils
 DESCRIPTION="Chat client for https://twitch.tv"
 HOMEPAGE="https://github.com/SevenTV/chatterino7"
 SRC_URI="
-    https://github.com/SevenTV/chatterino7/archive/refs/tags/nightly-build.tar.gz -> ${P}.tar.gz
+    https://github.com/SevenTV/chatterino7/archive/refs/tags/v7.5.1.tar.gz -> ${P}.tar.gz
 "
 
 S=${WORKDIR}/chatterino7-9999-build
