@@ -35,7 +35,7 @@ RDEPEND="
     dev-build/cmake
 "
 DEPEND="${RDEPEND}"
-BDEPEND=""
+BDEPEND="${RDEPEND}"
 
 src_prepare() {
     git submodule update --init --recursive
